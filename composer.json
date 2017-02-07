@@ -29,6 +29,12 @@
         "phpunit/phpunit": "^5.5",
         "mockery/mockery": "^0.9.5"
     },
+    "repositories": [
+        {
+          "type": "git",
+          "url": "https://github.com/denlapaev/openstack.git"
+        }
+    ],
     "config": {
         "preferred-install": "dist"
     },
