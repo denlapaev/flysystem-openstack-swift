@@ -1,35 +1,42 @@
 {
-    "name": "denlapaev/flysystem-openstack-swift",
-    "description": "Flysystem adapter for OpenStack Swift",
-    "keywords": [
-        "filesystem", "filesystems", "files", "chrisnharvey",
-        "storage", "flysystem", "openstack", "opencloud", "swift"
-    ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Nimbusoft Ltd",
-            "email": "support@nimbusoft.co.uk"
-        },
-        {
-            "name": "Chris Harvey",
-            "email": "chris@nimbusoft.co.uk"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Nimbusoft\\Flysystem\\OpenStack\\": "src/"
-        }
+  "name": "denlapaev/flysystem-openstack-swift",
+  "description": "Flysystem adapter for OpenStack Swift",
+  "keywords": [
+    "filesystem",
+    "filesystems",
+    "files",
+    "chrisnharvey",
+    "storage",
+    "flysystem",
+    "openstack",
+    "opencloud",
+    "swift"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nimbusoft Ltd",
+      "email": "support@nimbusoft.co.uk"
     },
-    "require": {
-        "denlapaev/openstack": "dev-master",
-        "league/flysystem": "^1.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^5.5",
-        "mockery/mockery": "^0.9.5",
-        "mikey179/vfsStream": "^1.6.4"
-    },
+    {
+      "name": "Chris Harvey",
+      "email": "chris@nimbusoft.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Nimbusoft\\Flysystem\\OpenStack\\": "src/"
+    }
+  },
+  "require": {
+    "denlapaev/openstack": "dev-master",
+    "league/flysystem": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.5",
+    "mockery/mockery": "^0.9.5",
+    "mikey179/vfsStream": "^1.6.4"
+  },
   "repositories": [
     {
       "type": "git",
